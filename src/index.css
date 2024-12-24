@@ -1,0 +1,151 @@
+@font-face {
+  src: url("../Fonts/integralcf/Fontspring-DEMO-integralcf-bold.otf");
+  font-family: "integralcf";
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  src: url("../Fonts/integralcf/Fontspring-DEMO-integralcf-boldoblique.otf");
+  font-family: "integralcf";
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  src: url("../Fonts/integralcf/Fontspring-DEMO-integralcf-bold.otf");
+  font-family: "integralcf";
+  font-style: normal;
+  font-weight: 100;
+}
+
+/**
+ * @license
+ *
+ * Font Family: Satoshi
+ * Designed by: Deni Anggara
+ * URL: https://www.fontshare.com/fonts/satoshi
+ * © 2022 Indian Type Foundry
+ *
+ * Font Styles:
+ * Satoshi Variable(Variable font)
+ * Satoshi Variable Italic(Variable font)
+ * Satoshi Light
+ * Satoshi Light Italic
+ * Satoshi Regular
+ * Satoshi Italic
+ * Satoshi Medium
+ * Satoshi Medium Italic
+ * Satoshi Bold
+ * Satoshi Bold Italic
+ * Satoshi Black
+ * Satoshi Black Italic
+ *
+*/
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 900.0;
+*
+* available axes:
+
+* 'wght' (range from 300.0 to 900.0)
+
+*/
+
+@font-face {
+  font-family: "Satoshi-Variable";
+  src: url("../Fonts/satoshi/Satoshi-Variable.woff2") format("woff2"),
+    url("../Fonts/satoshi/Satoshi-Variable.woff") format("woff"),
+    url("../Fonts/satoshi/Satoshi-Variable.ttf") format("truetype");
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 900.0;
+*
+* available axes:
+
+* 'wght' (range from 300.0 to 900.0)
+
+*/
+
+@font-face {
+  font-family: "Satoshi-VariableItalic";
+  src: url("../Fonts/satoshi/Satoshi-VariableItalic.woff2") format("woff2"),
+    url("../Fonts/satoshi/Satoshi-VariableItalic.woff") format("woff"),
+    url("../Fonts/satoshi/Satoshi-VariableItalic.ttf") format("truetype");
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Satoshi-Light";
+  src: url("../Fonts/satoshi/Satoshi-Light.woff2") format("woff2"),
+    url("../Fonts/satoshi/Satoshi-Light.woff") format("woff"),
+    url("../Fonts/satoshi/Satoshi-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi-LightItalic";
+  src: url("../Fonts/satoshi/Satoshi-LightItalic.woff2") format("woff2"),
+    url("../Fonts/satoshi/Satoshi-LightItalic.woff") format("woff"),
+    url("../Fonts/satoshi/Satoshi-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Satoshi-Regular";
+  src: url("../Fonts/satoshi/Satoshi-Regular.woff2") format("woff2"),
+    url("../Fonts/satoshi/Satoshi-Regular.woff") format("woff"),
+    url("../Fonts/satoshi/Satoshi-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+:root {
+  --header-font: "Satoshi-Light";
+  --satoshi-regular: "Satoshi-Regular";
+  --banner-font: "integralcf";
+  --black-color: rgb(0, 0, 0);
+  --color-subtitle: rgba(0, 0, 0, 0.6);
+  --color-sale: rgba(255, 51, 51, 0.1);
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  display: inline-block;
+}
+button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}

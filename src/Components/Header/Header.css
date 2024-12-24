@@ -1,0 +1,44 @@
+.header {
+  background: rgb(0, 0, 0);
+  display: flex;
+  padding:  10px 0;
+}
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.header-title {
+  color: rgb(255, 255, 255);
+  font-family: var(--header-font);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.header-row a {
+  margin-left: 5px;
+}
+.close{
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+  }
+  .header-row i {
+    width: 24px;
+    height: 24px;
+  }
+@media screen and (max-width: 500px) {
+  .header-title {
+
+    font-size: 12px;
+   
+  }
+  .header-row i {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+}
